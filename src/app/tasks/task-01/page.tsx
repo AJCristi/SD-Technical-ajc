@@ -52,86 +52,86 @@ export default function Task01Page() {
         </div>
 
         <div className="grid grid-cols-2 divide-x divide-gray-200 border-x border-gray-200 md:grid-cols-4">
-            {/* Product Card 1 */}
-            <div className="group border-b border-gray-200">
-              <div className="relative aspect-square overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80"
-                  alt="Minimal Watch"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="divide-y divide-gray-200">
-                <div className="p-6">
-                  <h3 className="text-balance mb-2 font-light tracking-wide text-black">
-                    Minimal Watch
-                  </h3>
-                  <p className="text-sm font-light text-gray-600">$299</p>
-                </div>
-              </div>
+          {/* Product Card 1 */}
+          <div className="group border-b border-gray-200">
+            <div className="relative aspect-square overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80"
+                alt="Minimal Watch"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
             </div>
-
-            {/* Product Card 2 */}
-            <div className="group border-b border-gray-200">
-              <div className="relative aspect-square overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80"
-                  alt="Leather Bag"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="divide-y divide-gray-200">
-                <div className="p-6">
-                  <h3 className="text-balance mb-2 font-light tracking-wide text-black">
-                    Leather Bag
-                  </h3>
-                  <p className="text-sm font-light text-gray-600">$189</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Product Card 3 */}
-            <div className="group border-b border-gray-200">
-              <div className="relative aspect-square overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80"
-                  alt="Wireless Speaker"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="divide-y divide-gray-200">
-                <div className="p-6">
-                  <h3 className="text-balance mb-2 font-light tracking-wide text-black">
-                    Wireless Speaker
-                  </h3>
-                  <p className="text-sm font-light text-gray-600">$149</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Product Card 4 */}
-            <div className="group border-b border-gray-200">
-              <div className="relative aspect-square overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&q=80"
-                  alt="Sunglasses"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="divide-y divide-gray-200">
-                <div className="p-6">
-                  <h3 className="text-balance mb-2 font-light tracking-wide text-black">
-                    Sunglasses
-                  </h3>
-                  <p className="text-sm font-light text-gray-600">$129</p>
-                </div>
+            <div className="divide-y divide-gray-200">
+              <div className="p-6">
+                <h3 className="text-balance mb-2 font-light tracking-wide text-black">
+                  Minimal Watch
+                </h3>
+                <p className="text-sm font-light text-gray-600">$299</p>
               </div>
             </div>
           </div>
+
+          {/* Product Card 2 */}
+          <div className="group border-b border-gray-200">
+            <div className="relative aspect-square overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80"
+                alt="Leather Bag"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="divide-y divide-gray-200">
+              <div className="p-6">
+                <h3 className="text-balance mb-2 font-light tracking-wide text-black">
+                  Leather Bag
+                </h3>
+                <p className="text-sm font-light text-gray-600">$189</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Product Card 3 */}
+          <div className="group border-b border-gray-200">
+            <div className="relative aspect-square overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80"
+                alt="Wireless Speaker"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="divide-y divide-gray-200">
+              <div className="p-6">
+                <h3 className="text-balance mb-2 font-light tracking-wide text-black">
+                  Wireless Speaker
+                </h3>
+                <p className="text-sm font-light text-gray-600">$149</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Product Card 4 */}
+          <div className="group border-b border-gray-200">
+            <div className="relative aspect-square overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&q=80"
+                alt="Sunglasses"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="divide-y divide-gray-200">
+              <div className="p-6">
+                <h3 className="text-balance mb-2 font-light tracking-wide text-black">
+                  Sunglasses
+                </h3>
+                <p className="text-sm font-light text-gray-600">$129</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Product Showcase Section */}
@@ -202,8 +202,8 @@ export default function Task01Page() {
             <div className="border-b border-gray-200">
               <div className="p-6">
                 <p className="text-balance italic text-lg font-light text-gray-600">
-                  “The product quality is exceptional and the delivery was 
-                  fast despite being from Manila. Highly recommended!”
+                  "The product quality is exceptional and the delivery was
+                  fast and secure. Highly recommended!"
                 </p>
                 <h4 className="text-balance mt-4 text-base font-light text-black">
                   Sarah Reyes
@@ -211,15 +211,15 @@ export default function Task01Page() {
                 <p className="text-sm font-light text-gray-600">
                   Manila, PH
                 </p>
-            </div>
+              </div>
             </div>
 
             {/* Testimonial 2 */}
             <div className="border-b border-gray-200">
               <div className="p-6">
                 <p className="text-balance italic text-lg font-light text-gray-600">
-                  “Amazing service! The support team went above and beyond to assist 
-                  me in Manila. Products arrived in perfect condition.”
+                  "All-around amazing service! The support team went above and beyond to assist
+                  me. Products arrived in perfect condition, packed and secured properly.
                 </p>
                 <h4 className="text-balance mt-4 text-base font-light text-black">
                   James Dela Cruz
@@ -227,23 +227,22 @@ export default function Task01Page() {
                 <p className="text-sm font-light text-gray-600">
                   New Customer
                 </p>
-            </div>
+              </div>
             </div>
 
             {/* Testimonial 3 */}
             <div className="border-b border-gray-200">
               <div className="p-6">
                 <p className="text-balance italic text-lg font-light text-gray-600">
-                  “I’ve tried many online stores but this one truly understands 
-                  Manila’s needs. Quick turnaround and friendly service.”
+                  "I was suprised how fast and seemless the delivery was. The product quality exceeded my expectations for the price. Maraming Salamat!"
                 </p>
                 <h4 className="text-balance mt-4 text-base font-light text-black">
                   Maya Santos
                 </h4>
                 <p className="text-sm font-light text-gray-600">
-                  Manila, PH - New Customer
+                  Cebu, PH
                 </p>
-            </div>
+              </div>
             </div>
           </div>
         </div>
