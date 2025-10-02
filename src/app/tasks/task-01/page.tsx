@@ -186,17 +186,64 @@ export default function Task01Page() {
         </div>
       </section>
 
-      {/* PLACEHOLDER: Build Your Section Here */}
+      {/* Testimonials Section */}
       <section className="border-t border-gray-200 py-24">
         <div className="container mx-auto px-4">
-          <div className="flex min-h-[400px] items-center justify-center border-2 border-dashed border-gray-300 bg-gray-50">
-            <div className="text-center">
-              <h3 className="text-balance text-2xl font-light tracking-wide text-gray-400">
-                INSERT YOUR SECTION HERE
-              </h3>
-              <p className="text-balance mt-4 text-sm font-light text-gray-400">
-                Build a section that matches the design patterns above
-              </p>
+          <div className="text-center">
+            <h2 className="text-balance mb-6 mt-8 text-4xl font-light tracking-wide text-black">
+              Customer Testimonials
+            </h2>
+            <p className="text-balance mb-12 text-lg font-light leading-relaxed text-gray-600">
+              Hear what our customers from Manila are saying
+            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {/* Testimonial 1 */}
+            <div className="border-b border-gray-200">
+              <div className="p-6">
+                <p className="text-balance italic text-lg font-light text-gray-600">
+                  “The product quality is exceptional and the delivery was 
+                  fast despite being from Manila. Highly recommended!”
+                </p>
+                <h4 className="text-balance mt-4 text-base font-light text-black">
+                  Sarah Reyes
+                </h4>
+                <p className="text-sm font-light text-gray-600">
+                  Manila, PH
+                </p>
+            </div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="border-b border-gray-200">
+              <div className="p-6">
+                <p className="text-balance italic text-lg font-light text-gray-600">
+                  “Amazing service! The support team went above and beyond to assist 
+                  me in Manila. Products arrived in perfect condition.”
+                </p>
+                <h4 className="text-balance mt-4 text-base font-light text-black">
+                  James Dela Cruz
+                </h4>
+                <p className="text-sm font-light text-gray-600">
+                  New Customer
+                </p>
+            </div>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="border-b border-gray-200">
+              <div className="p-6">
+                <p className="text-balance italic text-lg font-light text-gray-600">
+                  “I’ve tried many online stores but this one truly understands 
+                  Manila’s needs. Quick turnaround and friendly service.”
+                </p>
+                <h4 className="text-balance mt-4 text-base font-light text-black">
+                  Maya Santos
+                </h4>
+                <p className="text-sm font-light text-gray-600">
+                  Manila, PH - New Customer
+                </p>
+            </div>
             </div>
           </div>
         </div>
