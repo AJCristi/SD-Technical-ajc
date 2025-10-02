@@ -248,24 +248,28 @@ export function BadCard({
       </CardHeader>
 
       <CardContent className="space-y-4">
-        <UserSection
-          isUser={isUser}
-          memberSince={memberSince}
-          points={points}
-          level={level}
-          onViewProfile={onViewProfile}
-          onMessage={onMessage}
-        />
-        <AdminSection
-          isAdmin={isAdmin}
-          role={role}
-          department={department}
-          employeeId={employeeId}
-          permissions={permissions}
-          onEdit={onEdit}
-          onPromote={onPromote}
-          onDelete={onDelete}
-        />
+        {isUser && (
+          <UserSection
+            isUser={isUser}
+            memberSince={memberSince}
+            points={points}
+            level={level}
+            onViewProfile={onViewProfile}
+            onMessage={onMessage}
+          />)}
+
+        {isAdmin && (
+          <AdminSection
+            isAdmin={isAdmin}
+            role={role}
+            department={department}
+            employeeId={employeeId}
+            permissions={permissions}
+            onEdit={onEdit}
+            onPromote={onPromote}
+            onDelete={onDelete}
+          />
+        )}
       </CardContent>
 
       <CardFooter className="pt-0">
